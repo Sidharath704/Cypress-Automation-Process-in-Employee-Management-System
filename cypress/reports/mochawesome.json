@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-12-17T12:40:09.120Z",
+    "end": "2024-12-17T12:41:09.351Z",
+    "duration": 60231,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "94b5eccd-20a4-497b-8440-75b8608498c0",
+      "title": "",
+      "fullFile": "cypress\\e2e\\addEmployee.cy.js",
+      "file": "cypress\\e2e\\addEmployee.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "ca32126e-df66-4fdf-b94f-e69bb5ecaf35",
+          "title": "addEmployee",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "addEmployee",
+              "fullTitle": "addEmployee addEmployee",
+              "timedOut": null,
+              "duration": 57249,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const addEmployee = new _addEmployeePage.default();\naddEmployee.homePage();\naddEmployee.clickAddToEmployee();\naddEmployee.username();\naddEmployee.DateOfBirth();\naddEmployee.salary();\naddEmployee.joiningDate();\n//  addEmployee.relievingDate();\naddEmployee.contact();\naddEmployee.status();\naddEmployee.clickOnSubmit();\naddEmployee.clickOnEdit();\naddEmployee.updateName();\naddEmployee.updateDateOfBirth();\naddEmployee.updateSalary();\naddEmployee.updateJoiningDate();\n// addEmployee.updateRelievingDate();\naddEmployee.updateContact();\naddEmployee.updateStatus();\naddEmployee.updateSubmit();\naddEmployee.clickOnDelete();",
+              "err": {},
+              "uuid": "ca320aa9-8320-49fe-8d81-cbec253331f8",
+              "parentUUID": "ca32126e-df66-4fdf-b94f-e69bb5ecaf35",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ca320aa9-8320-49fe-8d81-cbec253331f8"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 57249,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
